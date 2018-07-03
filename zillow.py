@@ -24,7 +24,4 @@ class Zillow:
         return quandl.get(request, start_date=self.start_date, end_date=self.end_date)
 
 if __name__ == "__main__":
-    zip1 = ZillowDataObject('06902', 'Z', 'MRPFAH', 3)
-    print(zip1.end_date)
-    print(zip1.start_date)
-    print(zip1)
+    pass
